@@ -48,6 +48,25 @@ a {
   overflow: auto;
 }
 
+@media (max-width: 600px) {
+  .ImageContainer {
+    position: absolute;
+    height: 100vh;
+    background: url(../src/background.jpg) no-repeat 70% 70%;
+    width: 100vw;
+    max-height: 100%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    vertical-align: top;
+    background-attachment: fixed;
+    overflow: auto;
+  }
+}
+
 .Links {
   position: absolute;
   right: 1rem;
