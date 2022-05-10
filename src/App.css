@@ -32,11 +32,11 @@ a {
 }
 
 .ImageContainer {
+  background: url(../src/background.jpg) no-repeat center;
   position: absolute;
   height: 100vh;
-  background: no-repeat center url(../src/background.jpg);
   width: 100vw;
-  max-height: 100%;
+  /* max-height: 100%; */
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -50,11 +50,11 @@ a {
 
 @media (max-width: 600px) {
   .ImageContainer {
+    background: url(../src/background.jpg) no-repeat 70%;
     position: absolute;
     height: 100vh;
-    background: url(../src/background.jpg) no-repeat 70% 70%;
     width: 100vw;
-    max-height: 100%;
+    /* max-height: 100%; */
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -72,11 +72,4 @@ a {
   right: 1rem;
   bottom: 0;
   color: black;
-}
-
-.overlay {
-  position: absolute;
-  width: 100vh;
-  height: 100vh;
-  justify-content: center;
 }
