@@ -56,7 +56,6 @@ a {
 }
 .TextContent {
   position: absolute;
-  height: 100vh;
   top: 45vh;
   left: 50vw;
   color: lightblue;
@@ -85,7 +84,6 @@ a {
 @media (max-width: 800px) {
   .TextContent {
     position: absolute;
-    height: 100vh;
     top: 47vh;
     left: 50vw;
     color: lightblue;
