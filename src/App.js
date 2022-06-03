@@ -23,8 +23,8 @@ function App() {
               GitHub
             </a>
           </div>
+          <div className="TextContent">&#60;&#47;&#62;</div>
         </div>
-        {/* <img className="ImageContainer" src={background} /> */}
       </header>
     </div>
   );
